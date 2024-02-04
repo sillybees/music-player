@@ -1,9 +1,9 @@
 import React from "react";
-import playerSongPic from "../../image/cover-1.png";
-import MusicTitle from "../MusicTitle/MusicTitle";
-import PlayerButtons from "../PlayerButtons/PlayerButtons";
+import playerSongPic from "../image/cover-1.png";
+import MusicTitle from "./MusicTitle";
+import PlayerButtons from "./PlayerButtons";
 
-const Card = () => {
+const MusicPlayer = () => {
   return (
     <div className="bg-[#121826a6] w-96 rounded-3xl p-6">
       <div className="object-contain h-full">
@@ -19,4 +19,4 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default MusicPlayer;
